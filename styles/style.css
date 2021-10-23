@@ -5,9 +5,14 @@ body{
 	text-align: center;
 }
 
+/*Font styling*/
 p, ul{
 	color:#2B6878;
 	font-family: Helvetica;
+}
+
+ul{
+	list-style: square;
 }
 
 .header{
@@ -24,18 +29,30 @@ p, ul{
 	text-decoration: underline;
 }
 
-ul{
-	list-style: square;
+
+/*Bootstrap elements*/
+.row{
+	margin-top:100px;
+	justify-content: space-around;
+}
+
+/*Images and Logos */
+.photologo{
+	max-width: 20%;
+	min-width: 150px;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	
 }
 
 .image{
 	max-width: 20%;
+	min-width: 200px;
 	height: auto;
 	box-shadow: 3px 3px #abadba;
 	border: 2px black solid;
 }
-
-
 
 @media(max-width:550px){
 	
